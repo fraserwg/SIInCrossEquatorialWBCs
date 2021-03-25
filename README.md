@@ -1,4 +1,4 @@
-[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/fraserwg/SIInCrossEquatorialWBCs.git/main?filepath=LinearStabilityAnalysis%2FLinearStabilityAnalysis.ipynb)
+[![DOI](https://zenodo.org/badge/351466456.svg)](https://zenodo.org/badge/latestdoi/351466456) [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/fraserwg/SIInCrossEquatorialWBCs.git/main?filepath=LinearStabilityAnalysis%2FLinearStabilityAnalysis.ipynb)
 
 # Symmetric instability in cross-equatorial western boundary currents
 This repository contains code used in Goldsworth et al. (2021) to investigate symmetric instability in cross-equatorial flows. This repository contains three folers:
