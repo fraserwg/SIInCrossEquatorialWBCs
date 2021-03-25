@@ -1,0 +1,2 @@
+# The linear stability analysis
+This folder contains the jupyter notebook used to perform the linear stability analysis. It contains two files. The first is `LinearStabilityAnalysis.ipynb` which is the aforementioned jupyter notebook and the second is `environment.yml` which details the package versions needed to run the notebook. For help in getting started with jupter notebooks see https://jupyter-notebook.readthedocs.io/en/stable/.
