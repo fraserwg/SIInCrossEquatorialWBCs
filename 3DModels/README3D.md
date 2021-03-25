@@ -1,4 +1,4 @@
-# CrossEquator3D
+# Three dimensional models
 This folder contains MITgcm configuration files used for the three dimensional model integrations.
 
 ## Models present
