@@ -1,0 +1,15 @@
+ &RBCS_PARM01
+ useRBCuVel=.TRUE.,
+ useRBCvVel=.TRUE.,
+ tauRelaxV=1.,
+ tauRelaxU=1.,
+ relaxMaskUFile='./input/Umask.data',
+ relaxMaskVFile='./input/Vmask.data',
+ relaxUFile='./input/Urlx.data',
+ relaxVFile='./input/Vrlx.data',
+ &
+
+# Periodic parameters
+ &RBCS_PARM02
+ &
+ 
