@@ -1,0 +1,78 @@
+# Model parameters
+
+# Continuous equation parameters
+&PARM01
+ selectCoriMap=0,
+ f0=1.01E-5,
+ use3dCoriolis=.TRUE.,
+ fprime=1.45E-4,
+ 
+ viscC4smag=3,
+ viscAr=4.E-4,
+
+ rigidLid=.TRUE.,
+ implicitFreeSurface=.FALSE.,
+ 
+ buoyancyRelation='OCEANIC',
+ eosType='LINEAR',
+ rhonil=1023.35,
+ tAlpha=2.E-4,
+ sBeta=0.,
+ tRefFile = './input/Tref.data', 
+ sRefFile='./input/Sref.data',
+ 
+ tempStepping=.TRUE.,
+ tempAdvScheme=81,
+ diffK4T=1.E-5,
+ diffKrT=1.E-5,
+ 
+ saltStepping=.FALSE.,
+ diffK4S=0.,
+ diffKrS=0.,
+ 
+ no_slip_bottom=.FALSE.,
+ no_slip_sides=.TRUE.,
+ 
+ staggerTimeStep=.TRUE.,
+ momForcing=.FALSE.,
+ tempForcing=.FALSE.,
+ 
+ gravity=9.81,
+ gbaro=9.81,
+ readBinaryPrec=32,
+ writeBinaryPrec=32,
+ &
+
+# Elliptic solver parameters
+ &PARM02
+ cg2dMaxIters=1000,
+ cg2dTargetResidual=1.E-7,
+ &
+
+# Time stepping parameters
+ &PARM03
+ niter0=0,
+ endTime=7.2576E6,
+ deltaT=144.,
+ dumpFreq=8.E6,
+ pChkptFreq=8.E6,
+ chkptFreq=8.E6,
+ writePickupAtEnd=.TRUE.,
+ &
+
+# Gridding parameters
+ &PARM04
+ usingCartesianGrid=.TRUE.,
+ ygOrigin=500.E3,
+ delX=200*2.E3,
+ delY=1*2.E3,
+ delRFile='./input/deltaZ.data',
+ &
+
+ &PARM05
+ bathyFile='./input/bathy.data',
+ uVelInitFile='./input/uvel.data',
+ vVelInitFile='./input/vvel.data',
+ hydrogThetaFile='./input/Tinit.data'
+ the_run_name='rightjet',
+ &
