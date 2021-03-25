@@ -1,5 +1,5 @@
 # CrossEquator3D
-The repository contains MITgcm model configurations used in an investingation of symmetric instability in cross-equatorial flows. The details of the configurations and their outputs are discussed at length in Goldsworth et al. (2020).
+This folder contains MITgcm configuration files used for the three dimensional model integrations.
 
 ## Models present
 The four different configurations present are:
