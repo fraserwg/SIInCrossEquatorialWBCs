@@ -1,4 +1,4 @@
-# CrossEquator2D
+# Two dimensional models
 This folder contains MITgcm configurations used for the two dimensional model integrations.
 
 ## Models present
