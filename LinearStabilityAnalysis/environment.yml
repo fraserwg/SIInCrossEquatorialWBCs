@@ -1,0 +1,11 @@
+name: LinearStabilityAnalysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.*
+  - numpy=1.20.*
+  - scipy=1.6.*
+  - matplotlib=3.3.*
+  - xarray=0.17.*
+  - cmocean=2.0
